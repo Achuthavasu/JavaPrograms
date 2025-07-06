@@ -2,18 +2,28 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class AllProgram {
-    //      //To check the number is a prime number
-//    public static void main(String[] args) {
-//        int a = 24584;
-//        if (a % 2 == 0) {
-//            System.out.println(a + " is a prime number");
-//        } else {
-//            System.out.println("it is not");
-//        }
-//
-//    }
-//}
-    //To find factorial multiplication of given number
+    //To check the number is a prime number
+//          public static void main(String[] args) {
+//           int number = 29; // You can change this to any number
+//           boolean isPrime = true;
+//           if (number <= 1) {
+//           isPrime = false; // 0 and 1 are not prime numbers
+//           } else {
+//           for (int i = 2; i <= number / 2; i++) {
+//           if (number % i == 0) {
+//                              isPrime = false;
+//                              break;
+//                          }
+//                      }
+//                  }
+//                  if (isPrime) {
+//                      System.out.println(number + " is a Prime Number.");
+//                  } else {
+//                      System.out.println(number + " is NOT a Prime Number.");
+//                  }
+//              }
+//          }
+//To find factorial multiplication of given number
 //    public static void main(String[] args) {
 //        int number = 5;
 //        int factoral = 1;
@@ -27,20 +37,21 @@ public class AllProgram {
     //output is 120
 //
     // To reverse the given number
-//   public static void main(String[] args) {
-//   int number =349359;
-//   int reversed = 0;
-//   int reminder;
-//       while (number !=0)
-//   {reminder = number % 10;
-//       reversed = reversed * 10 + reminder;
-//       number /= 10;
+//    public static void main(String[] args) {
+//        int number = 349359;
+//        int reversed = 0;
+//        int reminder;
+//        while (number != 0) {
+//            reminder = number % 10;
+//            reversed = reversed * 10 + reminder;
+//            number /= 10;
 //
-// //     number = number/10; (above statement is same as number/=10)
-//   }
-//       System.out.println(reversed);
+//            //     number = number/10; (above statement is same as number/=10)
+//        }
+//        System.out.println(reversed);
 //
-//   }
+//    }
+//}
 
 
     //To check the number is palindrome
@@ -59,7 +70,7 @@ public class AllProgram {
 //        if (reversed == backup) {
 //            System.out.println(reversed + " is palindrome");
 //        } else System.out.println("no");
-//    }
+//    }}
     // To check the number of digits in a number
 //    public static void main(String[] args) {
 //        int number = 9543;
@@ -138,7 +149,6 @@ public class AllProgram {
             }
         }
     }
-
-    }
+ }
 
 

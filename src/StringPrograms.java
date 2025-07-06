@@ -5,11 +5,11 @@ public class StringPrograms {
 //    public static void main(String[] args) {
 //        String a = "ABCBA";
 //        String b = "";
-//        for (int i = a.length() - 1; i >= 0; i--) {
-//            b = b + a.charAt(i);
+////        for (int i = a.length() - 1; i >= 0; i--) {
+////            b = b + a.charAt(i);
 //
 //            // OR
-//       // String b= new StringBuilder(a).reverse().toString();
+//             b= new StringBuilder(a).reverse().toString();
 //            //This creates a new StringBuilder object and initializes it with the contents of the string a.
 //            //So this is like: StringBuilder sb = new StringBuilder("hello");
 //            System.out.println(b);
@@ -36,7 +36,8 @@ public class StringPrograms {
 //            if (a.charAt(i) == 'a' || a.charAt(i) == 'e' || a.charAt(i) == 'i' || a.charAt(i) == 'o' ||
 //                    a.charAt(i) == 'u') {
 //                v++;
-//            } else if (a.charAt(i) >= 'a' && a.charAt(i) <= 'z') {
+//            } else if (a.charAt(i) > 'a' && a.charAt(i) <= 'z') {
+//
 //                c++;
 //            }
 //        System.out.println(v);
@@ -55,6 +56,7 @@ public class StringPrograms {
 //            } else {
 //                Count.put(c, 1);
 //            }
+//
 //        }
 //        System.out.println(Count);
 //    }
@@ -90,7 +92,8 @@ public class StringPrograms {
         String[] arr = a.toLowerCase().split(" ");
 
         // Use a HashMap to count word frequency
-        HashMap<String, Integer> wordCount = new HashMap<>();
+        HashMap<String,
+                Integer> wordCount = new HashMap<>();
 
         for (String word : arr) {
             if (wordCount.containsKey(word)) {
